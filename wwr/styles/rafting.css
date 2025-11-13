@@ -45,7 +45,7 @@ nav,p, section, article{
     height: auto;
 
 }
-h1 {
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -55,12 +55,32 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-.hero article img {
+.hero article{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translatex(-50);
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 16px;
+    border-radius: 8px;
     float: right;
-    width: 125px;
+    width: 70%;
      border: 20px;
     margin: 15px;
     box-shadow: 20px;
-
 }
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.socialmedia img {
+  width: 32px;
+  height: 32px;
+  margin: 0 6px;
+  transition: transform 0.3s ease;
+}
+
 
