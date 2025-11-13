@@ -1,6 +1,5 @@
 :root{
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif; 
@@ -59,7 +58,7 @@ nav,p, section, article{
     position: absolute;
     bottom: 20px;
     left: 50%;
-    transform: translatex(-50);
+    transform: translatex(-50%);
     background-color: rgba(255, 255, 255, 0.85);
     padding: 16px;
     border-radius: 8px;
@@ -67,7 +66,7 @@ nav,p, section, article{
     width: 70%;
      border: 20px;
     margin: 15px;
-    box-shadow: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 .hero article img {
   float: right;
