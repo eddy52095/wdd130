@@ -35,9 +35,10 @@ nav,p, section, article{
 .socialmedia a{
     text-decoration: none;
 }
-.hero {
+.hero{
     position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -54,26 +55,13 @@ nav,p, section, article{
     background-color: var(--accent1-color);
     color: #fff;
 }
-.hero article{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translatex(-50%);
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 16px;
-    border-radius: 8px;
-    float: right;
-    width: 70%;
-     border: 20px;
-    margin: 15px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-}
+
+    
+
 .hero article img {
   float: right;
   width: 125px;
-  margin: 15px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+
 }
 .socialmedia img {
   width: 32px;
