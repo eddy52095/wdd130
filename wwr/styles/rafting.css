@@ -69,7 +69,16 @@ nav,p, section, article{
     color: #fff;
 }
 
-    
+.hero article{
+    position: absolute;
+    bottom: 20px;       /* position near bottom-left */
+    left: 20px;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
 
 .hero article img {
   float: right;
